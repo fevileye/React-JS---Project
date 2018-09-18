@@ -2,9 +2,11 @@
 
 Running by this command
 
-  docker-compose up
+  - docker-compose up
   
+
 Running on Port 3000
+
 
 The structure of projects is
 
