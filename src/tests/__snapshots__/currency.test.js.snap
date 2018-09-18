@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component matches the snapshot of Currency 1`] = `
+<div>
+  <div
+    className="MuiPaper-root-02 MuiPaper-elevation1-05 MuiPaper-rounded-03 MuiCard-root-01 item"
+  >
+    <div
+      className="MuiCardContent-root-029"
+    >
+      <div
+        className="itemDetail"
+      >
+        <div
+          className="leftItem"
+        >
+          <ul>
+            <li>
+               - 
+            </li>
+            <li>
+              1 USD = 
+               
+               
+            </li>
+            <li />
+          </ul>
+        </div>
+        <div
+          className="rightItem"
+        >
+           :
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiCardActions-root-030"
+    >
+      <div
+        className="buttonItem MuiCardActions-action-031"
+      >
+        <button
+          className="MuiButtonBase-root-058 MuiButton-root-032 MuiButton-text-034 MuiButton-textSecondary-036 MuiButton-outlined-040 MuiButton-outlinedSecondary-042 MuiButton-sizeSmall-055"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-033"
+          >
+            Delete 
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-061"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+             
+          </span>
+          <span
+            className="MuiTouchRipple-root-068"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

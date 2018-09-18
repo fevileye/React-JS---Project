@@ -1,0 +1,99 @@
+.mainApp{
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    font-size: 16px;
+}
+
+.item{
+    margin: 5px;
+    height: 150px;
+    padding: 5px; 
+}
+
+.leftItem{
+  float: left;
+  width:50%;
+  height:68px;
+  font-size: 16px;
+  color: black;
+  vertical-align: middle;
+}
+
+.rightItem{
+  overflow:auto;
+  float:right;
+  margin-top:34px;
+  width:40%;
+  height:68px;
+  font-size: 16px;
+  color: black;
+}
+
+.itemDetail{
+  overflow: hidden;
+  height:68px;
+  font-family: Roboto;
+}
+
+.buttonItem{
+  padding-left: 80%;
+}
+
+#Title{
+    padding-right:100%;
+}
+
+#TitleCurrency{
+    padding-right:10px;
+}
+
+.baseCurrency{
+    float:right;
+    
+}
+
+.baseCurrencyDetail{
+    width:70%;
+}
+
+.currencyInput{
+    border-radius: 5px;
+    margin: 1px;
+    background-color:white;
+    padding: 1px 20px;
+    width: 167px;
+    position: 'relative';
+    opacity: 2;
+    
+    
+}
+
+
+.addButton{
+    position: fixed;
+    width:100px;
+    height:100px;
+    left:90%;
+    top:90%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.textField{
+    width:200px;
+}
+
+.addCurrencyListDown{
+    overflow: auto;
+    width: 100%;
+}
+
+.okButton{
+    padding-right: 10px;
+    padding-left:10px;
+}
+
+

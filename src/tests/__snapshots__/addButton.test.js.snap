@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Button Component matches the snapshot of AddButton 1`] = `
+<div
+  className="addButton"
+>
+  <button
+    aria-describedby={null}
+    aria-label="Add"
+    className="MuiButtonBase-root-034 MuiButton-root-08 MuiButton-fab-025 MuiButton-contained-019 MuiButton-containedPrimary-020 MuiButton-raised-022 MuiButton-raisedPrimary-023"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    title="Add"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-09"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-037"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-044"
+    />
+  </button>
+</div>
+`;

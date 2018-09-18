@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Currency Component matches the snapshot of Add Currency 1`] = `
+<div>
+  <div
+    className="MuiPaper-root-02 MuiPaper-elevation1-05 MuiPaper-rounded-03 MuiCard-root-01 item"
+  >
+    <div
+      className="MuiCardContent-root-029"
+    >
+      <div
+        className="addCurrencyListDown"
+      >
+        <div
+          className="MuiFormControl-root-030 textField"
+        >
+          <label
+            className="MuiFormLabel-root-039 MuiFormLabel-filled-043 MuiInputLabel-root-034 MuiInputLabel-formControl-035 MuiInputLabel-animated-038 MuiInputLabel-shrink-037"
+            data-shrink={true}
+          >
+            Add Currency
+          </label>
+          <div
+            className="MuiInput-root-051 MuiInput-formControl-052 MuiInput-underline-055"
+          >
+            <div
+              className="MuiSelect-root-046"
+            >
+              <div
+                aria-haspopup="true"
+                aria-owns={null}
+                aria-pressed="false"
+                className="MuiSelect-select-047 MuiSelect-selectMenu-048 MuiInput-input-059"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                -- Select --
+              </div>
+              <input
+                type="hidden"
+                value="-- Select --"
+              />
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-064 MuiSelect-icon-050"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiCardActions-root-075"
+    >
+      <div
+        className="okButton MuiCardActions-action-076"
+      >
+        <button
+          className="MuiButtonBase-root-0103 MuiButton-root-077 MuiButton-contained-088 MuiButton-containedPrimary-089 MuiButton-raised-091 MuiButton-raisedPrimary-092"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-078"
+          >
+            OK
+          </span>
+          <span
+            className="MuiTouchRipple-root-0106"
+          />
+        </button>
+      </div>
+      <button
+        className="MuiButtonBase-root-0103 MuiButton-root-077 MuiButton-contained-088 MuiButton-containedSecondary-090 MuiButton-raised-091 MuiButton-raisedSecondary-093 MuiCardActions-action-076"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-078"
+        >
+          Cancel
+        </span>
+        <span
+          className="MuiTouchRipple-root-0106"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

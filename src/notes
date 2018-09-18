@@ -1,0 +1,40 @@
+<CurrencyList selectedRates={this.state.ratesData}/>
+
+let updatedSelectedRate= this.state.selectedRate.splice(deletedIndex,1);
+        this.setState({
+            selectedRate: [updatedSelectedRate]
+        })
+
+         <div className='add-currency'>
+                <TextField select label="Add Currency" value={this.state.currencyName} onChange={this.handleChange} >
+                    {this.props.availableListDown.map(option => (
+                        <MenuItem key={option} value={option}>
+                        {option}
+                        </MenuItem>
+                    ))}
+                </TextField>
+                <Button onClick={this.handleSubmit} variant="contained" color="primary">OK</Button>
+            </div>
+
+            react-scripts test --env=jsdom
+
+            it('Currency Name Default is  --Select-- ', () => {
+        const wrapper = shallow(<AddCurrency />)
+        const defaultCurrencyName= wrapper.state().currencyName;
+        expect(defaultCurrencyName).toEqual('-- Select --');
+    });
+
+
+it('Current Currency Start with 1', () => {
+        const wrapper = shallow(<App />)
+        const currentCurrencyState= wrapper.state().currentCurrency;
+        expect(currentCurrencyState).toEqual(1);
+    });
+
+    it('Current Currency Start with 1', () => {
+        const wrapper = shallow(<App />)
+        const currentCurrencyState= wrapper.state().openDialog;
+        expect(currentCurrencyState).toEqual(true);
+    });
+
+            

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Form Component matches the snapshot of Input Form 1`] = `
+<header
+  className="MuiPaper-root-010 MuiPaper-elevation4-016 MuiAppBar-root-01 MuiAppBar-positionStatic-05 MuiAppBar-colorPrimary-08"
+>
+  <div
+    className="MuiToolbar-root-037 MuiToolbar-regular-039 MuiToolbar-gutters-038"
+  >
+    <button
+      aria-label="Open drawer"
+      className="MuiButtonBase-root-047 MuiIconButton-root-041 MuiIconButton-colorInherit-042"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-046"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-050"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-057"
+      />
+    </button>
+    <div
+      className="baseCurrencyDetail"
+    >
+      <h2
+        className="MuiTypography-root-064 MuiTypography-title-070 MuiTypography-colorInherit-083 MuiTypography-noWrap-080"
+      >
+        <p
+          id="Title"
+        >
+          United States Dollar
+        </p>
+      </h2>
+    </div>
+    <div
+      className="baseCurrency"
+    >
+      <h2
+        className="MuiTypography-root-064 MuiTypography-title-070 MuiTypography-colorInherit-083 MuiTypography-noWrap-080"
+      >
+        <p
+          id="TitleCurrency"
+        >
+          USD
+        </p>
+      </h2>
+    </div>
+    <div
+      className="currencyInput"
+    >
+      <div
+        className="MuiInput-root-089"
+      >
+        <input
+          className="MuiInput-input-097 MuiInput-inputType-0100"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Currency"
+          type="number"
+          value={1}
+        />
+      </div>
+    </div>
+  </div>
+</header>
+`;

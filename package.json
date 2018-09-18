@@ -1,0 +1,32 @@
+{
+  "name": "foreign-currency",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.0.3",
+    "@material-ui/icons": "^3.0.1",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-scripts": "1.1.5",
+    "yarn": "^1.9.4",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react-test-renderer": "^16.5.1",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/src/tests/jest.setup.js"
+  }
+}
